@@ -60,7 +60,8 @@
 
 // for (let i = 0; i < src.length; i++) {
 //     let c = src[i];
-//     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') continue;
+//     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') 
+            // continue;
 //     res += src[i];
     // '' + src[0] == '' + 'c' => 'c'
     // 'c' + src[1] == 'c' + 'o' => 'co'
@@ -78,8 +79,9 @@
 // console.log(res);
 
 // ADVANCE : Nested Loop;
-// Mulitplication Table
 
+
+// Mulitplication Table
 for (let i = 2; i <= 12; i++) {
     for (let j = 1; j <= 12; j++) {
         // i = i * j;

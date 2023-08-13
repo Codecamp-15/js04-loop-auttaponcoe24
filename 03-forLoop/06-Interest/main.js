@@ -4,7 +4,7 @@
 
 
 let interestRate = 2.5;
-let balance = 100000;
+let balance = 100_000;
 let newBalance;
 //  newBalance = balance + Interest
 // newBalance = balance + (balance *(interestRate/100));
